@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>AI Password Generator</title>
+    <style>
+        .t {
+            font-family: "Rajdhani", sans-serif;
+        }
+    </style>
+</head>
+<body class="">
+    <section>
+        <h1 class="text-3xl lg:text-4xl font-bold p-5 flex ">
+            N<span class="text-[#008E97]">x</span>tGe<span class="text-[#008E97]">N🐧</span>
+        </h1>
+        <div class="flex h-full mx-auto mt-[50px] lg:mt-[105px] bg-black rounded-2xl w-[90%] lg:w-1/2 shadow-lg shadow-black">
+            <div class="lg:w-1/2 ">
+                <div class="p-6 lg:p-10">
+                    <h1 class="t text-[#F8EF00] font-lg  text-3xl  lg:text-5xl">Password</h1>
+                    <h1 class="t  text-[#F8EF00] font-lg text-3xl  lg:text-5xl ml-5 lg:ml-9">Generator🗝️</h1>
+                </div>
+                <div class="lg:ml-14 ml-4">
+                    <input id="input" type="text" class="t bg-[#001819] lg:w-full mb-1 lg:mb-4 border border-[#008E97] border-2 py-2 text-[#008E97] focus:outline-none p-3 lg:p-2 text-lg lg:text-xl cursor-not-allowed" placeholder="Click here to Generate 👇"><br/>
+                    <button id="btn" class="t bg-[#F8EF00] text-black text-xl font-semibold py-2 px-4 mb-2 mt-3 lg:mt-5">Generate Password -></button>
+                </div>
+                <div>
+                    <h1 class="t text-[#F8EF00] font-semibold text-xl lg:text-4xl ml-7 lg:ml-14 mt-5 mb-5">-Get a Password -🕷️</h1>
+                </div>
+                <div class=" p-2 lg:p-10">
+                    <ul class="mb-5">
+                        <li id="firstEle" class="t bg-[#001819] border  w-full  border-2 px-5 py-5 border-[#008E97] text-[#008E97] ml-8 lg:ml-14 mb-5 text-lg lg:text-2xl font-bold text-center cursor-pointer"></li>
+                        <li id="secondEle" class="t bg-[#001819] border w-full  border-2 px-5 py-5 border-[#008E97] text-[#008E97] ml-8 lg:ml-14 mb-5 text-lg lg:text-2xl font-bold text-center cursor-pointer"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="lg:w-1/2 mt-5 lg:mt-36 ">
+                <div>
+                    <h1 class="t text-[#008E97] font-semibold  text-3xl lg:text-5xl lg:text-center ml-14 mt-14 lg:ml-0 lg:mt-0">History 💀</h1>
+                </div>
+                <div class="lg:mt-14 mt-5 border border-[#008E97] border-2 bg-[#001819] mr-16 h-82 w-[85%] lg:w-3/4 ml-10 py-2">
+                    <ul id="historyList" class="list-disc lg:mr-14 ml-5  mt-2 lg:mt-9"></ul>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <script src="./index.js"></script>
+   
+</body>
+</html>
