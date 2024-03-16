@@ -24,7 +24,7 @@ function addToHistory(password) {
     // Create a new list item element
     const li = document.createElement("li");
     li.textContent = password;
-    li.classList.add("t", "lg:w-1/2", "lg:ml-24", "mb-2", "text-2xl", "text-[#008E97]","cursor-pointer","w-[82px]","mx-auto" );
+    li.classList.add("t","ml-12" ,"lg:w-1/2", "lg:ml-24", "mb-2", "text-2xl", "text-[#008E97]","cursor-pointer","w-full","lg:mx-auto" );
     
     // Append the new list item to the history list
     const historyList = document.getElementById("historyList");
